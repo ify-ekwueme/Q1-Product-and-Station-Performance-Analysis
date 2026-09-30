@@ -40,10 +40,12 @@ Data analysis of petroleum station operation. Analyzes product sales, and statio
  Without a dashboard, these questions required manual spreadsheet digging on an ad-hoc basis.
 
 ### Outcome 
+  The Analysis surfaced a previously invisible finding : Revenue dropped 16.9% from January to February and has since plateaued, rather than declining gradually, reframing the business question from "why are we shrinking" to "what changed in February." Also identified automotive fuel's 89% revenue dominance across all stations as a consistent cross-sell gap in lubricants and cooking gas.
 
+- - - 
 
-
-
+## 2. Objectives 
+- - -
 
 
 
