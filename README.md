@@ -46,6 +46,21 @@ Data analysis of petroleum station operation. Analyzes product sales, and statio
 
 ## 2. Objectives 
 - - -
+The objective was to track overall revenue performance and momentum across the quarter.
+- To identify top-performing products and stations
+- Understand demand patterns by day and shift for staffing decisions.
+- To evaluate supervisor performance consistency.
 
+- - - 
+
+## 3. Project Scope & Tools 
+
+### Scope 
+
+| Dimension | Details |
+|-----------|---------|
+| **In Scope** | The petroleum product and station performance analysis data was downloaded from kaggle. Analysis covers revenue trends, volume of products sold, average daily revenue etc.|
+| **Out of Scope** | Unit prices are constant across months, it was impossible to know if the decline in revenue was as a result of price fluctuation. |
+| **Time Period** | 2025 (January - March) |
 
 
