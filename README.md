@@ -76,37 +76,28 @@ The objective was to track overall revenue performance and momentum across the q
 - - - 
 
 ## 4. Repository Structure 
-Q1 Product and Station Performance Analysis /
+
+```
+Q1 Product and Station Performance Analysis/
 │
 ├── data/
 │   ├── raw/
-│        └── 2012-2024-.xlsx
+│        └──Data external/timac_fuel_data_500_enhanced.xlsx
 │   ├── processed/
-│        └── flaring_cleaned.csv
-│   └── external/
-│       └── Henry_Hub_Prices.csv
+│        └── Q1_Fuel_Sales_Data.csv
 │
 │── docs/
-│        └── flaring_filtered_documentation.xlsx
-│
-├── queries/               
-│   ├── exploratory/
-│        └── 03_eda_v1.sql
-│   ├── transformations/
-│       ├── 01_SQL_Overview_v1.sql
-│       └──  02_profiling&cleaning_v1.sql
-│   └── final/
-│        └── flaring_filtered_sql.csv     
+│        └── Q1_Fuel_Sales_Documentation.xlsx
 │
 ├── reports/              
-│   ├── Gas flare Analysis 2012-2024.pdf
+│   ├── Q1_Product_and_Station_Performance.pdf
 │
 ├── visuals/        
-│   ├── Executive_Overview.jpeg
-│    └── Geographical_Overview.jpeg
+│   ├── Dashboard_Screenshot.jpeg
+│    
 │
 └── README.md                
-
+```
 
 
 
