@@ -23,3 +23,27 @@ Data analysis of petroleum station operation. Analyzes product sales, and statio
 11. [Future Enhancements](#11-future-enhancements)
 12. [Dashboard](#12-dashboard)
 13. [Author](#13-author)
+
+- - - 
+
+## 1. Project Overview 
+
+  This is an Analysis of Q1 2025 sales data across three fuel retail stations, Iwaya, Idimu and Maryland. Each station covers five products (PMS, AGO, Diesel, Lubricants, Cooking Gas). I built an interactive Power Bi dashboard to give commercial management visibility into revenue trends, product mix, staffing demand and supervisor performance.
+
+### Problem Statement 
+  Commercial leadership had raw transactional data but no consolidated view to answer basic operating questions:
+- Is revenue growing or shrinking?
+-  Which products and stations drive the business?
+-  Is staffing aligned with actual demand patterns?
+-  Are shifts run consistently across supervisors?
+
+ Without a dashboard, these questions required manual spreadsheet digging on an ad-hoc basis.
+
+### Outcome 
+
+
+
+
+
+
+
