@@ -99,5 +99,35 @@ Q1 Product and Station Performance Analysis/
 └── README.md                
 ```
 
+- - - 
+
+## 5. Data Workflow 
+
+1. **Source:**
+- The CSV file contains fuel sales record from three stations, covering the first quarter of 2025. It was downloaded from Kaggle.  
+
+2. **Cleaning:**
+- Data was cleaned in Power Query
+- Product was standardized to resolve l
+
+3. **Transformation:**
+- Reshaped wide dataset (500 rows) into normalized long format (2500 rows) by unpivoting product columns (PMS, AGO, LPG, Lubricant, DPK) to enable station-by-product analysis in Power BI.
+- Defined calculated measures for KPI (Total revenue, Daily average revenue, Volume dispensed etc) 
+  
+4. **Analysis:**
+- Performed EDA to identify revenue trends, best selling products etc. 
+
+5. **Output:**
+- A one page dashboard with KPI data and charts across the 3 station. 
+
+- - - 
+
+
+
+
+
+
+
+
 
 
