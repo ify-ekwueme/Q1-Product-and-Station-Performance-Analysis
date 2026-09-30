@@ -164,3 +164,84 @@ This project followed an exploratory data analysis (EDA) approach to understand 
 | `Revenue by Station` | Revenue broken down by station location | Compares station performance |
 
 
+### Methods Used 
+
+- Trend analysis across three months.
+- Prepared and reshaped dataset in Excel and power query.
+- Developed Dax measures for key business metrics.
+- Built a power bi dashboard to help stakeholders visualize the insights easily.
+
+  - - -
+
+## 8. Key Insights
+
+* Revenue fell 16.9% from January to February, then plateaued (+0.5% Feb→Mar), a one-time step-down, not a gradual decline.
+  
+* PMS drives the most revenue despite the lowest unit price. Therefore, it is a volume driver, not a margin driver.
+  
+* Automotive fuel makes up 89% of revenue at all three stations; lubricants and cooking gas remain a flat, under-leveraged category.
+
+* Friday mornings and Sunday nights see peak demand; Friday/Saturday nights are consistently the lightest.
+
+* Supervisor performance is consistent (₦7.0M–7.3M avg revenue/shift), no major outliers.
+
+* Miss Chika logged fewer shifts than the rest of the supervisor, although performance per shift shows no red flag.
+
+- - - 
+
+## 9. Recommendations
+
+* Investigate the February revenue step-down, to know if it’s a (pricing, supply, competition) problem.
+
+* Run promotions to grow lubricant and cooking gas attachment rates.
+
+* Reduce night staffing on Fridays and Saturdays; reinforce Friday morning and Sunday night coverage.
+
+* Monitor the shift coverage consistency across supervisors.
+
+- - -
+
+## 10. Limitations
+* Unit prices are constant across the quarter,  no pricing/elasticity analysis possible.
+
+* Quantity units are mixed (litres for fuel, kg for gas) and reported as combined volume.
+
+* Data reflects shift-level totals, not individual transactions.
+
+- - - 
+
+## 11. Future Enhancements
+
+* Incorporate cost data to analyze margin, not just revenue.
+
+* Add year-over-year comparison once more historical data is available.
+
+* Track promotions and pricing changes against revenue impact.
+
+- - - 
+
+## 12. Dashboard
+
+## Commercial Overview
+
+![Commercial Overview]
+
+- - - 
+
+## 13. Author 
+
+**Ekwueme Ifeoma**
+
+Data Analyst
+
+
+
+
+
+
+
+
+
+
+
+
