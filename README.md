@@ -59,8 +59,54 @@ The objective was to track overall revenue performance and momentum across the q
 
 | Dimension | Details |
 |-----------|---------|
-| **In Scope** | The petroleum product and station performance analysis data was downloaded from kaggle. Analysis covers revenue trends, volume of products sold, average daily revenue etc.|
+| **In Scope** | The product and station performance analysis data was downloaded from kaggle. Analysis covers revenue trends, volume of products sold, average daily revenue etc.|
 | **Out of Scope** | Unit prices are constant across months, it was impossible to know if the decline in revenue was as a result of price fluctuation. |
 | **Time Period** | 2025 (January - March) |
+
+- - - 
+### Tools and Technology 
+| Purpose | Tool(s) Used |
+|----------|-------------|
+| Data Storage | CSV files |
+| Data Processing | Excel |
+| Analysis | Power Query, Power Bi (Dax) |
+| Visualization | Power BI |
+| Version Control | GitHub |
+
+- - - 
+
+## 4. Repository Structure 
+Q1 Product and Station Performance Analysis /
+│
+├── data/
+│   ├── raw/
+│        └── 2012-2024-.xlsx
+│   ├── processed/
+│        └── flaring_cleaned.csv
+│   └── external/
+│       └── Henry_Hub_Prices.csv
+│
+│── docs/
+│        └── flaring_filtered_documentation.xlsx
+│
+├── queries/               
+│   ├── exploratory/
+│        └── 03_eda_v1.sql
+│   ├── transformations/
+│       ├── 01_SQL_Overview_v1.sql
+│       └──  02_profiling&cleaning_v1.sql
+│   └── final/
+│        └── flaring_filtered_sql.csv     
+│
+├── reports/              
+│   ├── Gas flare Analysis 2012-2024.pdf
+│
+├── visuals/        
+│   ├── Executive_Overview.jpeg
+│    └── Geographical_Overview.jpeg
+│
+└── README.md                
+
+
 
 
