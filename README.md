@@ -108,26 +108,59 @@ Q1 Product and Station Performance Analysis/
 
 2. **Cleaning:**
 - Data was cleaned in Power Query
-- Product was standardized to resolve l
+- Fixed mismatch between Product and Product Category after reshaping using IF mapping (=IF(Product="PMS","Automotive Fuel",...)) and pasted as values to standardize.
+- Cleaned currency field.
+- Parsed date.
 
 3. **Transformation:**
 - Reshaped wide dataset (500 rows) into normalized long format (2500 rows) by unpivoting product columns (PMS, AGO, LPG, Lubricant, DPK) to enable station-by-product analysis in Power BI.
 - Defined calculated measures for KPI (Total revenue, Daily average revenue, Volume dispensed etc) 
   
 4. **Analysis:**
-- Performed EDA to identify revenue trends, best selling products etc. 
+- Performed EDA to identify revenue trends, best selling products, supervisor performance etc.
+- Built Dax measures for Revenue, Volume, Performance etc. 
 
 5. **Output:**
 - A one page dashboard with KPI data and charts across the 3 station. 
 
 - - - 
 
+## 6. Data Model & Schema
 
+### Dataset
+Table 1: `FuelSales`
 
+| Field Name | Data Type | Description | Example Value |
+|------------|-----------|--------------|----------------|
+| Date | date | date of the sales transaction | 15/02/2025 |
+| Station_Name | text | fuel station where the sale occurred | Idimu |
+| Product Category | text | broader category of product sold | Automotive Fuel |
+| Product | text | specific product sold | PMS |
+| Shift | text | shift during which the sale occurred | Morning |
+| Supervisor | text | supervisor on duty for the shift | Mr Tunde |
+| Weekday | text | day of the week | Monday |
+| Quantity | decimal | volume sold, in litres or kg | 1250 |
+| Unit_Price | decimal | price per unit, in Naira | 650.00 |
+| Revenue | decimal | total revenue generated, in Naira | 812500.00 |
+| Month_Name | text | name of the month | February |
+| Month_Number | int | numeric month | 2 |
+| Quarter | int | quarter of the year | 1 |
 
+- - - 
 
+## 7. Analysis and Metrics
+### Analytical Approach
+This project followed an exploratory data analysis (EDA) approach to understand fuel retail sales performance across stations in Q1 2025.
 
+### Key Metrics
 
-
+| Metric | Description | Business Value |
+|--------|--------------|------------------|
+| `Total Revenue` | Sum of all revenue generated across stations for the period | Measures overall business performance |
+| `Total Volume` | Sum of quantity sold (litres/kg) across all products | Tracks throughput and demand |
+| `Avg Daily Revenue` | Average revenue generated per day | Benchmarks daily performance |
+| `Month over Month %` | Percentage change in revenue from one month to the next | Flags growth or decline trends |
+| `Revenue by Product` | Revenue broken down by product type | Identifies top revenue-driving products |
+| `Revenue by Station` | Revenue broken down by station location | Compares station performance |
 
 
